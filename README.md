@@ -1,7 +1,4 @@
-# Machine-Test-Temperature_Analysis
-Python-based analysis of NOAA temperature data for Ann Arbor, Michigan. Includes visualizations of record high and low temperatures (2005-2014), with a 2015 overlay for records broken, and geographic station mapping.
-
-# Temperature_Analysis
+# # Machine-Test-Temperature_Analysis
 
 This repository contains a detailed analysis and visualization of temperature data near Ann Arbor, Michigan, using NOAA datasets. The project includes record high and low temperatures from 2005-2014, along with a 2015 overlay for any records broken during that year. The analysis also features a geographic visualization of data stations and a temperature summary for 2015.
 
