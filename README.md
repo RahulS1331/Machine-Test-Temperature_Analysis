@@ -1,12 +1,18 @@
 # Machine-Test-Temperature_Analysis
 Python-based analysis of NOAA temperature data for Ann Arbor, Michigan. Includes visualizations of record high and low temperatures (2005-2014), with a 2015 overlay for records broken, and geographic station mapping.
 
-# AnnArbor_Temperature_Analysis
+# Temperature_Analysis
 
 This repository contains a detailed analysis and visualization of temperature data near Ann Arbor, Michigan, using NOAA datasets. The project includes record high and low temperatures from 2005-2014, along with a 2015 overlay for any records broken during that year. The analysis also features a geographic visualization of data stations and a temperature summary for 2015.
 
-## Project Overview
 
+## Files in the Repository
+
+- `assignment.ipynb`: The Jupyter notebook containing the code for the analysis and visualization.
+- `temperature.csv`: The dataset with temperature records.
+- `BinSize.csv`: The dataset with station locations.
+- `ann_arbor_stations_map.html`: A map visualization of stations near Ann Arbor, Michigan.
+  
 ### Data Source:
 - **NOAA Daily Global Historical Climatology Network (GHCN-Daily)**
 
@@ -30,16 +36,11 @@ This repository contains a detailed analysis and visualization of temperature da
 5. **2015 Temperature Summary:**
    - Visualization summarizing temperature data near Ann Arbor for 2015.
 
-# Temperature Analysis and Station Mapping
-
-This project involves analyzing temperature data near Ann Arbor, Michigan, United States, using NOAA datasets. The analysis includes plotting record high and low temperatures between 2005-2014, identifying any temperature records broken in 2015, and visualizing weather stations on a map.
-
-## Files in the Repository
-
-- `assignment.ipynb`: The Jupyter notebook containing the code for the analysis and visualization.
-- `temperature.csv`: The dataset with temperature records.
-- `BinSize.csv`: The dataset with station locations.
-- `ann_arbor_stations_map.html`: A map visualization of stations near Ann Arbor, Michigan.
+## Libraries Used
+- **Pandas**: For data manipulation and cleaning.
+- **Matplotlib : For creating visualizations.
+- **Folium: For creating interactive maps that can be easily customized and integrated with other data analysis results
+  
 
 ## How to Run the Code
 
